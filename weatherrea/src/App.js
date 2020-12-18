@@ -29,8 +29,6 @@ class App extends React.Component {
     const data = await api_call.json();
     const api_call3 = await fetch(`http://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${API_KEY}&units=metric`);
     const data3 = await api_call3.json();
-    const lat = data.coord.lat;
-    const lon = data.coord.lon;
       console.log(data.weather[0].main);
       if(data.weather[0].main==="Rain"){
         document.getElementById("body").className="rain"
