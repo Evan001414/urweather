@@ -25,6 +25,18 @@ const Weather = props => (
 	 { 
 	 	props.error && <p className="weather__error">{ props.error }</p>  
 	 }
+	{
+		props.minTemp &&
+		<p className="weather__key">
+			Min. Temp :
+			<span className="weather__value">
+			 {props.minTemp} 
+			</span>
+		</p>
+	}
+	{
+		props.maxTemp &&<p className="weather__key">Max. Temp :<span className="weather__value">{props.maxTemp}</span></p>
+	}
 	</div>
 );
 
