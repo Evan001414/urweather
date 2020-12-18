@@ -23,6 +23,7 @@ body {
   justify-content: center;
   text-align: center;
   background: linear-gradient(to right, midnightblue, skyblue);
+  border-radius: 15px;
 }
 
 .title-container__title {
@@ -350,12 +351,13 @@ button:hover {
   /* line-height: 110px; */
   justify-content: space-around;
   text-align: center;
-  background-color: #bccbd8;
+  background-color: #669acc;
+  border: 5px solid #c7ddf5;
   border-radius: 20px;
   margin-right: 5px;
 }
 
 .forecast{
   font-weight: inherit;
-  color: #fff;
+  color: white;
 }
