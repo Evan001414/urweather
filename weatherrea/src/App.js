@@ -25,9 +25,9 @@ class App extends React.Component {
     e.preventDefault();
     const city = e.target.elements.city.value;
     //const country = e.target.elements.country.value;
-    const api_call = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`);
+    const api_call = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`);
     const data = await api_call.json();
-    const api_call3 = await fetch(`http://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${API_KEY}&units=metric`);
+    const api_call3 = await fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${API_KEY}&units=metric`);
     const data3 = await api_call3.json();
       console.log(data.weather[0].main);
       if(data.weather[0].main==="Rain"){
