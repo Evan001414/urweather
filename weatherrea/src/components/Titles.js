@@ -3,7 +3,7 @@ import React from "react";
 const Titles = () => (
 	<div>
 		<h1 className="title-container__title">Ur Weather</h1>
-		<h3 className="title-container__subtitle">Find out temperature, conditions and more...</h3>
+		<h3 className="title-container__subtitle">Helping you find temperture, humidity and more! through your location~</h3>
 	</div>
 );
 
