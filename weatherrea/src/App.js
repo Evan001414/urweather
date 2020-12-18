@@ -62,8 +62,6 @@ class App extends React.Component {
       document.getElementById("temp").className="visibility";
       document.getElementById("daily").className="visibility";
       
-      const api_call2 = await fetch(` https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric`);
-      const data2 =await api_call2.json();
       if (city) {
       
       this.setState({
