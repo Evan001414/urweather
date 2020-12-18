@@ -126,7 +126,7 @@ class App extends React.Component {
         </div>
         <div id="form" className="form-container">
         <Form getWeather={this.getWeather} />
-          <div className="isi">
+          <div className="col-8 isi">
               <Weather 
               humidity={this.state.humidity}
               city={this.state.city}
