@@ -135,9 +135,6 @@ class App extends React.Component {
               error={this.state.error}
             />
             <p id="temp" className="hidden">Temperature : <span id="hasil">{this.state.temperature+"°C"}</span></p>
-          <Weather 
-            minTemp={this.state.minTemp}
-            maxTemp={this.state.maxTemp} />
           </div>
           <br />
         <button onClick={this.Cel}>Celcius</button>
