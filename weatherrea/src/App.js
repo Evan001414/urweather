@@ -148,68 +148,68 @@ class App extends React.Component {
             <div className="wrapper">
               <div className="item">
                 <p className="forecast">{this.state.listday0}<br />
-                Min. : {this.state.listmin0}<br />
-                Max. : {this.state.listmax0}
+                Min. : {this.state.listmin0+"°C"}<br />
+                Max. : {this.state.listmax0+"°C"}
                 </p>
               </div>
               <div className="item">
               <p className="forecast"> {this.state.listday1}<br />
-                Min. : {this.state.listmin1}<br />
-                Max. : {this.state.listmax1}
+                Min. : {this.state.listmin1+"°C"}<br />
+                Max. : {this.state.listmax1+"°C"}
                 </p>
               </div>
               <div className="item">
                 <p className="forecast">{this.state.listday2}<br />
-                Min. : {this.state.listmin2}<br />
-                Max. : {this.state.listmax2}
+                Min. : {this.state.listmin2+"°C"}<br />
+                Max. : {this.state.listmax2+"°C"}
                 </p>
               </div>
               <div className="item">
                 <p className="forecast">{this.state.listday3}<br />
-                Min. : {this.state.listmin3}<br />
-                Max. : {this.state.listmax3}
+                Min. : {this.state.listmin3+"°C"}<br />
+                Max. : {this.state.listmax3+"°C"}
                 </p>
               </div>
               <div className="item">
                 <p className="forecast">{this.state.listday4}<br />
-                Min. : {this.state.listmin4}<br />
-                Max. : {this.state.listmax4}
+                Min. : {this.state.listmin4+"°C"}<br />
+                Max. : {this.state.listmax4+"°C"}
                 </p>
               </div>
               <div className="item">
                 <p className="forecast">{this.state.listday5}<br />
-                Min. : {this.state.listmin5}<br />
-                Max. : {this.state.listmax5}
+                Min. : {this.state.listmin5+"°C"}<br />
+                Max. : {this.state.listmax5+"°C"}
                 </p>
               </div>
               <div className="item">
                 <p className="forecast">{this.state.listday6}<br />
-                Min. : {this.state.listmin6}<br />
-                Max. : {this.state.listmax6}
+                Min. : {this.state.listmin6+"°C"}<br />
+                Max. : {this.state.listmax6+"°C"}
                 </p>
               </div>
               <div className="item">
                 <p className="forecast">{this.state.listday7}<br />
-                Min. : {this.state.listmin7}<br />
-                Max. : {this.state.listmax7}
+                Min. : {this.state.listmin7+"°C"}<br />
+                Max. : {this.state.listmax7+"°C"}
                 </p>
               </div>
               <div className="item">
                 <p className="forecast">{this.state.listday8}<br />
-                Min. : {this.state.listmin8}<br />
-                Max. : {this.state.listmax8}
+                Min. : {this.state.listmin8+"°C"}<br />
+                Max. : {this.state.listmax8+"°C"}
                 </p>
               </div>
               <div className="item">
                 <p className="forecast">{this.state.listday9}<br />
-                Min. : {this.state.listmin9}<br />
-                Max. : {this.state.listmax9}
+                Min. : {this.state.listmin9+"°C"}<br />
+                Max. : {this.state.listmax9+"°C"}
                 </p>
               </div>
               <div className="item">
                 <p className="forecast">{this.state.listday10}<br />
-                Min. : {this.state.listmin10}<br />
-                Max. : {this.state.listmax10}
+                Min. : {this.state.listmin10+"°C"}<br />
+                Max. : {this.state.listmax10+"°C"}
                 </p>
               </div>
             </div>
